@@ -5,3 +5,5 @@ const Sum = (a, b) => {
 };
 
 console.log(Sum(3, 5));
+
+console.log(Sum(10, 6));
