@@ -12,6 +12,18 @@
 
 
 
+// Exercício 2
+// O restaurante a quilo Bem-Bão cobra R$12,00 por cada quilo de refeição.
+// Escreva um algoritmo que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar.
+
+
+// const weight = 0.5;
+// const oneHundredGrams = 1.2;
+// const result = (weight * oneHundredGrams) * 10;
+
+// console.log(`O valor do seu prato é R$${result}`);
+
+
 // Exercicio 3
 // Faça um algoritmo que receba dois números, calcule e mostre a divisão do primeiro número pelo segundo.
 // Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com validações.
