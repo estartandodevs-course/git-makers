@@ -6,6 +6,7 @@
 
 - Dentro da sua pasta crie uma pasta chamada `/exercicios-js`
 - E crie um arquivo pra cada exercicio `exercicio1.js`, `exercicio2.js`...
+- Façam o maximo de exercicios possiveis
 
 Após fazer podem dar push e enviar para o repositorio.
 
