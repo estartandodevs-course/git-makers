@@ -21,11 +21,11 @@ O comando console.log() é usado para monstrar um valor durante a interpretaçã
 
 #### Quais as diferenças das declarações?
 
-A `const` é uma constante, ela não pode ser alterada.
+`const` é uma constante, ela não pode ser alterada.
 
-A `let` é uma variavel que só é acessavel no escopo em que ela é declarada.
+`let` é uma variavel que pode ser acessada apenas no escopo em que ela é declarada.
 
-A `var` é uma variavel que pode ser acessada em qualquer lugar do projeto. É aconselhado que você só use ela caso necessario.
+`var` é uma variavel que pode ser acessada em qualquer lugar do projeto. É aconselhado que você só use ela caso necessario.
 
 ---
 
@@ -42,7 +42,7 @@ A `var` é uma variavel que pode ser acessada em qualquer lugar do projeto. É a
 
 ##### String
 
-String é um tipo que armazena textos. Para entendermos vamos criar uma varivel que o valor é uma string
+String é um tipo que armazena textos. Para entendermos vamos criar uma varivel que o valor é do tipo string
 
 `const souUmaString = "Eu sou uma variavel do tipo string!"`
 
@@ -55,21 +55,21 @@ Number é um tipo que armazena numeros (Damm).
 ##### Object
 
 Esse é um pouco mais complexo, mas eu gosto muito :stuck_out_tongue_winking_eye:
-O objeto ele é identificado por `{}`. E ele tem o que podemos chamar de "keys" (chaves). No exemplo abaixo vou mostrar um objeto que é referente ao Breno e vou dar a ele as keys nome e idade.
+O objeto é identificado por `{}`. Ele tem o que podemos chamar de "keys" (chaves). No exemplo abaixo vou mostrar um objeto que é referente á pessoa e vou dar á ele as keys nome e idade.
 
-`const Breno = { nome: "Breno Nunes", idade: 18}`
+`const pessoa = { nome: "Breno Nunes", idade: 18}`
 
-Como vocês podem ver as keys do objeto tem valores, e esses valores podem ter tipos diferentes. No caso nome é do tipo string e idade do tipo number
+Como vocês podem ver as keys do objeto tem valores, e esses valores podem ter tipos diferentes. No caso `nome` é do tipo string e `idade` do tipo number
 
 #### Undefined
 
-Undefined é um tipo que indefinido. Nada mais nada menos que um variavel que ainda não tem seu valor definido
+Undefined é um tipo indefinido. Nada mais nada menos que um variavel que ainda não tem seu valor definido/setado
 
 `const indefinido;`
 
 ##### Boolean
 
-Boolean é um tipo que booleano :thinking:. Ela tem 2 opções, `true` ou `false`... Acho que já entenderam.
+Boolean é um tipo booleano :thinking:. Ela tem 2 opções, `true` ou `false`... Acho que já entenderam.
 
 ```
 const verdadeiro = true;
@@ -78,7 +78,7 @@ const falso = false;
 
 ##### Function
 
-Boolean é um tipo função :thinking: E eu não vou explicar por que vocês vão entender logo em seguida :point_down:
+Function é um tipo função :thinking: E eu não vou explicar por que vocês vão entender logo em seguida :point_down:
 
 ---
 
