@@ -1,7 +1,13 @@
-const dadosGustavo = {
-    nome: "Gustavo",
-    sobrenome: "Testando",
-    idade: "22",
+function gerarObjeto(nomeEntrada, sobrenomeEntrada, idadeEntrada){
+    return {
+        nome: nomeEntrada,
+        sobrenome: sobrenomeEntrada, 
+        idade: idadeEntrada,
+    }
+
+
 }
 
-console.log(dadosGustavo);
+const objetoVitor = gerarObjeto("joao vitor", "archanjo", 23);
+
+console.log(objetoVitor);
