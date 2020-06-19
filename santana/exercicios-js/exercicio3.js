@@ -1,5 +1,5 @@
-function divi(a, b) {
-   return a / b;
+function divisao(numero1, numero2) {
+  return numero1 / numero2;
 }
 
-console.log(divi(10, 2));
+console.log(divisao(10, 2));
