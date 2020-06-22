@@ -1,11 +1,15 @@
-var desenvolvedor ={
-    nome: "Joãozinho"
-    _sobrenome: "Gomes",
-    get sobrenome() {
-        return this._sobrenome;
-    },
-    set sobrenome(value) {
-        this._sobrenome = value;
-    },
-    idade: "16" 
+var desenvolvedor ={ 
+    nome: "Lucas",
+    sobrenome: "Pedro,",
+    idade: "17",
+    nomeCompleto: function (){ 
+        return  this.nome + " " + this.sobrenome
+    }
 }
+var final = "Olá meu nome é " + desenvolvedor.nomeCompleto() + " sou desenvolvedor e tenho " +
+desenvolvedor.idade + " anos. "
+console.log(final)
+
+
+
+    
