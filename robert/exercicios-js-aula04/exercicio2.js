@@ -6,5 +6,6 @@ function mostrarObjetoPessoa(nomeEntrada, sobrenomeEntrada, idadeEntrada) { //at
         idade: idadeEntrada
     }
 }
+
 console.log(mostrarObjetoPessoa("Angelo", "Lima", 21)) // colocando a entrada pedida no enunciado
 
