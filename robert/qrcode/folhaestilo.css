@@ -1,0 +1,7 @@
+body{padding: 0px; margin: 0px;}
+#tudo {background-color: cadetblue; padding: 20px; width: 100vw; height: 100vh; display:flex ; flex-direction: column; justify-content: center; align-items: center ; }
+#tudo2 {background-color: cadetblue; padding: 20px; width: 100vw; height: 100vh; display:flex ; flex-direction: column; justify-content: center; align-items: center ; }
+.botao1 {text-align: center; border: 10px solid white; border-radius: 10px; margin: 5px; width: 200px; cursor: pointer;}
+#button{text-align: center; border: 10px solid rgb(255, 255, 255); border-radius: 10px; margin: 5px; width: 200px; cursor: pointer;}
+#texto1 {text-align: center; border: none; margin: none; width: 400px; height: 700px;font: size 30%; ;}
+#texto2 {text-align: center; border: none; margin: none; width: 400px; height: 700px;font: size 30%; ;}
