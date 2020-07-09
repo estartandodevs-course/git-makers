@@ -1,4 +1,4 @@
-## Exercícios JavaScript
+## Exercícios JavaScript - DH
 
 ### Exercício 01
 No fim de semana o elevador do nosso prédio quebrou, restringindo muito o fluxo de pessoas. Considerando isso, apenas os moradores dos apartamentos com número par poderão usar o elevador. Escreva um código que, com base na variável “moradores” nos informe quais moradores poderão utilizar o elevador. O número do apartamento é a sua posição no array, e o nome do morador é o valor.
