@@ -1,16 +1,25 @@
 // Exercicio 1
 // Dado um objeto, crie um algoritmo que exiba o nome completo e a idade.
 
-// const desenvolvedor = {
-// 	nome: 'Fred',
-// 	sobrenome: 'Bezerra',
-// 	idade: 27,
-// };
+const desenvolvedor = [
+    {
+    nome: 'Ana',
+	sobrenome: 'Murdock',
+	idade: 27,
+    },
+    {
+	nome: 'Fred',
+	sobrenome: 'Bezerra',
+	idade: 27,
+    }
+];
 
-// 	const { nome, sobrenome, idade } = desenvolvedor;
-// 	const frase = `Olá, meu nome é ${nome} ${sobrenome}, sou desenvolvedor e tenho ${idade} anos.`;
+	desenvolvedor.map((item) => {
+        console.log(item.nome)
+    });
+	
 
-// console.log(frase)
+
 
 
 
